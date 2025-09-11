@@ -1,0 +1,19 @@
+# Dependencies
+/node_modules
+
+# Build output
+/build
+/dist
+
+# Local development data
+/data
+
+# Environment variables
+.env
+.env.local
+
+# Editor directories and files
+.vscode/
+
+# Operating system files
+.DS_Store
