@@ -1,11 +1,11 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom"
 
 // page components
+import Navbar from "./components/Navbar"
 import Home from "./pages/home/Home"
 import Create from "./pages/create/Create"
 import Search from "./pages/search/Search"
 import Entry from "./pages/entry/Entry"
-import Navbar from "./components/Navbar"
 // styles
 import "./App.css"
 
