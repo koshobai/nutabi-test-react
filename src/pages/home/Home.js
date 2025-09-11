@@ -6,7 +6,7 @@ import "./Home.css"
 import EntryList from "../../components/EntryList"
 
 export default function Home() {
-  const { data, isPending, error } = useFetch("http://localhost:8000/entries")
+  const { data, isPending, error } = useFetch("http://localhost:8000/entries?")
 
   return (
     <div className="home">
