@@ -1,5 +1,6 @@
 # Dependencies
 /node_modules
+node_modules
 
 # Build output
 /build
@@ -17,3 +18,5 @@
 
 # Operating system files
 .DS_Storenode_modules/
+.DS_Store
+
