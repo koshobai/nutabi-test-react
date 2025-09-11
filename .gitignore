@@ -16,4 +16,4 @@
 .vscode/
 
 # Operating system files
-.DS_Store
+.DS_Storenode_modules/
