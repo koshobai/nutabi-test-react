@@ -10,7 +10,7 @@ export default function Navbar() {
           <h1>Nutabi! </h1>ニュウ旅
         </Link>
 
-        <Link to="/create">Create New Article</Link>
+        <Link to="/create">New Article</Link>
       </nav>
     </div>
   )
