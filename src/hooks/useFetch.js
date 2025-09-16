@@ -30,9 +30,11 @@ export const useFetch = (url) => {
         }
       }
     }
-    //this fetchData function runs only after the await above has resolved, meaning the component has successfully mounted
+    // This effect runs after the component has mounted.
+    // I call fetchData immediately to start the request.
     fetchData()
-    //this cleanup function *only* returns when the component using this hook unmounts prematurely!
+    // React will run this cleanup function when the component unmounts...
+    // OR before the effect runs again due to a dependency change.
     return () => {
       controller.abort()
     }
