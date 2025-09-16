@@ -6,6 +6,8 @@ import Home from "./pages/home/Home"
 import Create from "./pages/create/Create"
 import Search from "./pages/search/Search"
 import Entry from "./pages/entry/Entry"
+import Footer from "./components/Footer"
+import Homepage from "./pages/Homepage"
 // styles
 import "./App.css"
 
@@ -18,6 +20,9 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
+          <Route path="/homepage">
+            <Homepage />
+          </Route>
           <Route path="/create">
             <Create />
           </Route>
@@ -28,6 +33,7 @@ function App() {
             <Entry />
           </Route>
         </Switch>
+        <Footer />
       </BrowserRouter>
     </div>
   )

@@ -2,179 +2,93 @@
   "entries": [
     {
       "id": "1",
-      "title": "Who Loves You More Than Your Mother",
-      "ingredients": ["1 Carrot", "1 Leek", "200g Tofu", "300ml Veg stock"],
-      "method": "1. Pre-heat the oven to 200C/3C/gas 5. Place the carrot, leek and tofu in a large bowl. Add the stock and mix well. 2. Add the rest of the ingredients and mix well. 3. Place the mixture in a large bowl and cover with a lid. 4. Place the lid on the oven and cook for 40 minutes. 5. Serve with a slaw of your choice",
-      "cookingTime": "45 minutes"
+      "title": "The Revamped \"Business Manager\" Visa: Stricter Requirements and Strategic Planning",
+      "method": "Japan is set to tighten the requirements for the Business Manager visa, a common pathway for foreign entrepreneurs and executives. New regulations will reportedly increase the minimum capital investment and mandate the hiring of resident employees. Understanding these new hurdles is the first step for anyone planning to establish a company in Japan.",
+      "readingTime": "15 minutes"
     },
     {
       "id": "2",
-      "title": "Why Your Boss Hates You",
-      "ingredients": [
-        "1 Base",
-        "Tomata pasta",
-        "1 Green pepper",
-        "100g Mushrooms"
-      ],
-      "method": "1. Pre-heat the oven to 200C/3C/gas 5. Add the pasata, green pepper and mushrooms to the base. Place the lid on the oven and cook for 30 minutes. 5. Serve with a slaw of your choice",
-      "cookingTime": "35 minutes"
+      "title": "The New Digital Nomad Visa: Opportunities and Limitations for Remote Work",
+      "method": "In a move to attract global talent, Japan has introduced a \"Digital Nomad Visa.\" This topic delves into the eligibility criteria, the permitted length of stay, and the tax implications for individuals looking to work remotely from Japan for an overseas employer. It's crucial to understand both the freedoms and the restrictions that come with this new visa category.",
+      "readingTime": "10 minutes"
     },
     {
       "id": "3",
-      "title": "When to Give Up on Your Dreams",
-      "ingredients": [
-        "1 Onion",
-        "1 Block of Feta",
-        "Olives",
-        "Tomatoes",
-        "Olive Oil"
-      ],
-      "method": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse minima ex rem quis similique eum ratione quaerat, voluptas molestias ut repudiandae delectus voluptates. Eius esse at tenetur ab accusamus excepturi?",
-      "cookingTime": "35 minutes"
+      "title": "The Expanded \"Startup Visa\": A Nationwide Push for Innovation",
+      "method": "Previously limited to specific municipalities, the JETRO-backed \"Startup Visa\" program is being expanded nationwide. This offers a more accessible route for entrepreneurs to launch their ventures in Japan. Newcomers should explore the application process, the support systems offered by different prefectures, and the long-term prospects for scaling a business under this visa.",
+      "readingTime": "10 minutes"
     },
     {
       "id": "4",
-      "title": "How to Alienate Your Friends",
-      "ingredients": [
-        "200g Unsolicited Advice",
-        "1 cup Passive Aggression",
-        "A Pinch of Self-Righteousness",
-        "Hot Takes to taste"
-      ],
-      "method": "Combine all ingredients in a conversation. Stir vigorously until everyone is uncomfortable. Let it simmer in awkward silence for 10-15 minutes. Garnish with a non-apology and serve immediately. Best enjoyed alone.",
-      "cookingTime": "20 minutes"
+      "title": "Corporate Governance Reforms: A Deeper Dive into Board Independence and Diversity",
+      "method": "Recent revisions to Japan's Corporate Governance Code place a stronger emphasis on board independence, the appointment of female and international executives, and overall diversity. Understanding these expectations is vital for anyone in a leadership position or involved in corporate strategy.",
+      "readingTime": "20 minutes"
     },
     {
       "id": "5",
-      "title": "Where to Hide from Your Responsibilities",
-      "ingredients": [
-        "1 Large Blanket",
-        "5 hours of Binge-worthy TV",
-        "1 bag of Salty Snacks",
-        "A Deep Sense of Denial"
-      ],
-      "method": "1. Construct a fort with the blanket. 2. Infuse the snacks with denial. 3. Turn on the TV and marinate your brain for at least 5 hours, or until responsibilities have seemingly vanished. 4. Do not leave the fort for any reason. If found, pretend to be a lump of laundry.",
-      "cookingTime": "5 hours and 15 minutes"
+      "title": "ESG and Sustainability Reporting: Meeting New Disclosure Standards",
+      "method": "Japanese companies are facing increasing pressure to enhance their environmental, social, and governance (ESG) disclosures. Foreign businesses operating in Japan need to be aware of these evolving standards and how to effectively communicate their sustainability efforts to stakeholders.",
+      "readingTime": "15 minutes"
     },
     {
       "id": "6",
-      "title": "What to Do With Your Last Ounce of Patience",
-      "ingredients": [
-        "1 Deep Breath",
-        "10 seconds of Stunned Silence",
-        "1 Forced Smile",
-        "A Vague, Non-committal Response"
-      ],
-      "method": "Carefully measure out the deep breath and hold for 5 seconds. Slowly combine with the stunned silence. Whisk in the forced smile until your cheeks hurt. Gently fold in the non-committal response. Walk away before it curdles.",
-      "cookingTime": "30 seconds"
+      "title": "Navigating Japan's Economic Security Legislation and Its Implications",
+      "method": "A new focus on economic security has led to legislation aimed at protecting critical infrastructure and sensitive technologies. This is particularly relevant for businesses in sectors like technology, energy, and telecommunications, as it may impact supply chains and foreign investment.",
+      "readingTime": "10 minutes"
     },
     {
       "id": "7",
-      "title": "How to Win an Argument on the Internet",
-      "ingredients": [
-        "1 Unshakeable Conviction",
-        "3 Misinterpreted Statistics",
-        "A dash of Ad Hominem",
-        "CAPS LOCK to taste"
-      ],
-      "method": "Present your conviction as undisputed fact. When challenged, liberally sprinkle in misinterpreted statistics. If opponent persists, add a dash of ad hominem. Season generously with CAPS LOCK. Block the other user and declare victory. Never check for replies.",
-      "cookingTime": "15 minutes of your life you'll never get back"
+      "title": "The New Qualified Invoice System: Implications for Invoicing and Tax Compliance",
+      "method": "Japan has recently implemented a new invoice system, known as the Qualified Invoice System. This has significant implications for consumption tax calculations and record-keeping. All businesses, regardless of size, need to understand and adapt to this new system to ensure tax compliance.",
+      "readingTime": "15 minutes"
     },
     {
       "id": "8",
-      "title": "Why You Bought That Hobby Stuff and Never Used It",
-      "ingredients": [
-        "2 cups Fleeting Inspiration",
-        "1 gallon Unrealistic Expectations",
-        "A mountain of Aspirational Guilt",
-        "1 half-watched YouTube tutorial"
-      ],
-      "method": "Combine fleeting inspiration with unrealistic expectations in a large bowl. Let the mixture sit in a prominent place in your home for 3-6 months. As aspirational guilt forms, occasionally glance at the half-watched tutorial. Store indefinitely in a closet.",
-      "cookingTime": "6 months to a lifetime"
+      "title": "Understanding the Kishida Administration's Economic Policies",
+      "method": "Prime Minister Fumio Kishida's New Capitalism agenda aims to foster a virtuous cycle of growth and distribution. Business leaders should familiarize themselves with the key pillars of this policy, including its focus on wage growth, investment in human capital, and support for startups.",
+      "readingTime": "8 minutes"
     },
     {
       "id": "9",
-      "title": "A Delicious Meal for One on a Friday Night",
-      "ingredients": [
-        "Whatever is left in the fridge",
-        "1 bag of Shredded Cheese",
-        "A sense of quiet resignation",
-        "Your favorite streaming service"
-      ],
-      "method": "Combine all edible ingredients in a single bowl. Cover liberally with shredded cheese. Microwave until the cheese is melted and the resignation has set in. Serve in front of the TV. Pairs well with scrolling through photos of your friends who are out having fun.",
-      "cookingTime": "5 minutes"
+      "title": "Work-Style Reform Laws: Overtime Caps and Flexible Work Arrangements",
+      "method": "Japan continues to push for work-style reform to address issues of overwork and promote more flexible employment. This includes stricter caps on overtime hours and encouragement of remote work. New managers and HR professionals must be well-versed in these labor regulations.",
+      "readingTime": "15 minutes"
     },
     {
       "id": "10",
-      "title": "How to Look Busy in an Open-Plan Office",
-      "ingredients": [
-        "1 furrowed brow",
-        "Several cryptic spreadsheets",
-        "An oversized pair of headphones",
-        "An occasional, weary sigh"
-      ],
-      "method": "Apply the furrowed brow and stare intently at a spreadsheet. For added effect, switch between spreadsheets every 5 minutes. Put on headphones to create an unapproachable aura. Emit a weary sigh every half hour to signify a heavy workload. Serves one career.",
-      "cookingTime": "8 hours a day"
+      "title": "Incentives for Foreign Direct Investment: Tapping into Government Support",
+      "method": "Despite some tightening in certain areas, the Japanese government remains keen on attracting foreign direct investment. This topic explores the various incentives, subsidies, and support programs available to foreign companies looking to establish or expand their operations in Japan.",
+      "readingTime": "10 minutes"
     },
     {
       "id": "11",
-      "title": "The Art of the Graceful Irish Exit",
-      "ingredients": [
-        "1 Full Drink (for camouflage)",
-        "A sudden, feigned interest in the nearest exit",
-        "The social awareness of a ninja",
-        "A pre-written 'Sorry I missed you!' text"
-      ],
-      "method": "Identify your escape route early. Mingle your way towards the exit, using the full drink as a prop. When you sense a lull in conversation, make a clean break. Do not make eye contact. Do not say goodbye. Deploy the pre-written text 30 minutes later. Best served without a trace.",
-      "cookingTime": "45 seconds"
+      "title": "The Shifting Landscape of Foreign Worker Visas in Japan",
+      "method": "Beyond the headline changes to the Business Manager and Startup visas, there are ongoing discussions and potential reforms related to other categories of foreign workers. Staying abreast of these changes is crucial for workforce planning and talent acquisition.",
+      "readingTime": "15 minutes"
     },
     {
       "id": "12",
-      "title": "How to Respond to 'We Should Hang Out Sometime'",
-      "ingredients": [
-        "1 part enthusiastic agreement",
-        "3 parts intentional vagueness",
-        "A complete lack of follow-through",
-        "Mutual understanding"
-      ],
-      "method": "Combine enthusiastic agreement with intentional vagueness ('Yes, totally! Things are so crazy right now though!'). Allow the lack of follow-through to dissolve any actual obligation. The mutual understanding will develop on its own. Let it rest for 3-5 months before repeating the recipe.",
-      "cookingTime": "15 seconds"
+      "title": "The Business Impact of Japan's Aging Population and Demographic Shifts",
+      "method": "Japan's aging and shrinking population presents both challenges and opportunities for businesses. Understanding the policy responses to these demographic shifts, such as those related to healthcare, pensions, and the labor market, can inform strategic business decisions.",
+      "readingTime": "15 minutes"
     },
     {
       "id": "13",
-      "title": "When You Realize You're the Oldest Person at the Party",
-      "ingredients": [
-        "1 moment of crushing clarity",
-        "100g feigned understanding of modern slang",
-        "A sudden urge to discuss mortgage rates",
-        "1 aching lower back"
-      ],
-      "method": "Allow the crushing clarity to wash over you. Attempt to blend in by using slang incorrectly. When the urge to discuss mortgages becomes overwhelming, suppress it with a sip of whatever the kids are drinking. Let the aching back guide you to the nearest chair, or preferably, home to your bed.",
-      "cookingTime": "1 hour"
+      "title": "Digital Transformation (DX) as a National Priority: Government Initiatives and Business Opportunities",
+      "method": "The Japanese government is actively promoting digital transformation across all sectors of the economy. This creates significant opportunities for foreign tech companies and service providers, but also necessitates an understanding of the government's strategic priorities and support mechanisms.",
+      "readingTime": "16 minutes"
     },
     {
       "id": "14",
-      "title": "How to Survive a Family Gathering",
-      "ingredients": [
-        "A handful of neutral conversation topics",
-        "1 well-rehearsed, vague life update",
-        "Strategic placement near the snack table",
-        "An exit strategy"
-      ],
-      "method": "Upon arrival, immediately secure a position near the snacks; this provides a convenient excuse to disengage from conversation. Deploy neutral topics like the weather. When asked about your life, deliver the vague, rehearsed update. When your social battery hits 10%, execute the exit strategy without hesitation.",
-      "cookingTime": "3-4 hours"
+      "title": "Changes to the Japanese Tax Code Impacting Foreign Companies",
+      "method": "Recent tax reforms have introduced changes that can affect foreign companies operating in Japan. This includes adjustments to corporate tax rates and regulations related to international taxation. A clear understanding of these changes is essential for financial planning and compliance.",
+      "readingTime": "13 minutes"
     },
     {
       "id": "15",
-      "title": "The Perfect Snack for Your Existential Crisis",
-      "ingredients": [
-        "1 sleeve of crackers",
-        "An entire block of cheese",
-        "A profound sense of cosmic indifference",
-        "Staring into the middle distance"
-      ],
-      "method": "Place the block of cheese on a plate. You do not need to slice it. Consume crackers and cheese while staring into the void. Ponder the fleeting nature of existence. Continue until either the cheese is gone or the indifference subsides. It is usually the cheese.",
-      "cookingTime": "25 minutes"
+      "title": "Navigating Regional Economic Development and Revitalization Policies",
+      "method": "To counter the concentration of economic activity in Tokyo, the government is promoting investment and business establishment in regional areas. Exploring the unique incentives and opportunities offered by different prefectures can be a strategic advantage for new businesses entering the Japanese market.",
+      "readingTime": "25 minutes"
     }
   ]
 }
