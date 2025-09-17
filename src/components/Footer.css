@@ -1,69 +1,95 @@
-.footer {
-  background: hsla(298, 50%, 50%, 0);
-  color: #fff;
-  padding: 10px 10px 10px;
-  position: sticky;
-  bottom: 0;
-  z-index: 1;
-}
+/* --- 1. Mobile-First Floating Button Styles --- */
 
-.footer nav {
+.floating-cta-button {
+  /* Positioning */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000; /* Ensures it's on top of other content */
+
+  /* Box Model & Sizing */
+  width: 50px;
+  height: 50px;
+  padding: 8px; /* Added padding for content inside */
+
+  /* Appearance */
+  background-color: #9800b3cb;
+  color: white;
+  border: none; /* Removed the default border */
+  border-radius: 50%; /* Makes it a circle */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  cursor: pointer;
+
+  /* Content Alignment */
   display: flex;
+  justify-content: center;
   align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-}
 
-.footer a.brand {
-  margin-right: auto;
-  color: #fff;
-  text-decoration: none;
-}
-
-.footer a:last-child {
-  color: #b4b4b4;
-  text-decoration: none;
-  margin-left: 0;
-  padding: 8px;
-  border: 1.5px solid #b4b4b4;
-  border-radius: 100%;
-  font-weight: 800;
-}
-.footer a:last-child:hover {
-  color: #a414de;
-  text-decoration: none;
-
-  /* background: #333; */
-}
-h1 {
-  font-size: 0.2em;
-}
-
-body {
-  padding-bottom: 10px;
+  /* Effects */
+  transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
 .floating-nav-button {
-  /* This is the key to making it float */
+  /* Positioning */
   position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000; /* Ensures it's on top of other content */
 
-  /* Position it in the bottom-right corner */
-  bottom: 20px; /* Distance from the bottom */
-  right: 20px; /* Distance from the right */
+  /* Box Model & Sizing */
+  width: 50px;
+  height: 50px;
+  padding: 8px; /* Added padding for content inside */
 
-  /* Make sure it's on top of other content */
-  z-index: 1000;
-
-  /* Optional: Styling to make it look nice */
-  width: 60px;
-  height: 60px;
-  background-color: #9800b3; /* Example color */
+  /* Appearance */
+  background-color: #9800b3cb;
   color: white;
+  border: none; /* Removed the default border */
   border-radius: 50%; /* Makes it a circle */
-  text-align: center;
-  font-size: 24px;
-  line-height: 60px; /* Vertically centers the text/icon */
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
   cursor: pointer;
-  text-decoration: none; /* Removes underline if it's a link */
+
+  /* Content Alignment */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Effects */
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.floating-nav-button:hover {
+  background-color: #a414de;
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.footer a:last-child {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+
+  padding: 10px; /* Generous padding for easy tapping */
+  border: 1.5px solid #fff;
+  border-radius: 50px;
+  font-weight: 500;
+  text-align: center; /* Center text inside the button */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footer a:last-child:hover {
+  background-color: #fff;
+  color: #b228b7;
+  font-size: xx-large;
+}
+
+/* --- 2. Tablet & Desktop Adjustments --- */
+@media (min-width: 768px) {
+  .floating-nav-button {
+    width: 60px;
+    height: 60px;
+    bottom: 30px;
+    right: 30px;
+  }
 }

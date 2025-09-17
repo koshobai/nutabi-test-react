@@ -6,11 +6,11 @@ export default function Footer() {
     <div className="footer">
       <nav>
         <Link to="/homepage" className="brand">
-          <h1>©︎ 2025 Nutabi! </h1>
+          <h6>©︎ 2025 Nutabi! </h6>
         </Link>
 
         <a href="#top" className="floating-nav-button">
-          &#9650;
+          ⇧
         </a>
       </nav>
     </div>

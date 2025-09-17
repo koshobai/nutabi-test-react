@@ -1,21 +1,25 @@
+/* --- 1. Base Mobile Styles (for screens < 600px) --- */
 .navbar {
   background: #98249c;
   padding: 20px;
-  color: #fff;
   position: sticky;
-  top: 0;
-  z-index: 1;
+  z-index: 100;
+
+  top: -80px;
+  border-radius: 0 0 50px 50px; /* Adjust the '25px' to get the curve you want */
+  text-align: center;
 }
 
 .navbar nav {
   display: flex;
-  align-items: center;
+  flex-direction: column; /* Stack items vertically on mobile */
+  align-items: flex-start; /* Align to the left */
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .navbar a.brand {
-  margin-right: auto;
+  margin-bottom: 15px; /* Add space below the brand */
   color: #fff;
   text-decoration: none;
   font-weight: 400;
@@ -23,19 +27,53 @@
 
 .navbar a:last-child {
   color: #fff;
+  background-color: transparent;
   text-decoration: none;
-  margin-left: 40px;
-  padding: 8px;
-  border: 1px solid #fff;
+  align-items: flex-start; /* Align to the left */
+
+  padding: 10px; /* Generous padding for easy tapping */
+  border: 1.5px solid #fff;
+  border-radius: 50px;
   font-weight: 500;
+  text-align: center; /* Center text inside the button */
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
+
 .navbar a:last-child:hover {
-  color: #fff;
-  text-decoration: none;
-  background: #333;
-  font-weight: 600;
-  text-align: center;
+  background-color: #fff;
+  color: #98249c;
 }
-h2 {
+
+.navbar h2 {
   font-size: 1.2em;
+}
+
+/* --- 2. Tablet Styles (for screens >= 600px) --- */
+@media (min-width: 600px) {
+  .navbar nav {
+    flex-direction: row; /* Switch to horizontal layout */
+    align-items: center;
+    justify-content: space-between; /* Space out items */
+  }
+
+  .navbar a.brand {
+    margin-bottom: 0; /* Remove bottom margin */
+  }
+
+  .navbar a:last-child {
+    width: auto; /* Revert to auto-width */
+    margin-left: 40px; /* Add margin back */
+    padding: 8px 16px;
+  }
+}
+
+/* --- 3. Desktop Styles (for screens >= 1024px) --- */
+@media (min-width: 1024px) {
+  .navbar {
+    padding: 25px 40px; /* Add a bit more padding on large screens */
+  }
+
+  .navbar a:last-child {
+    font-size: 1.1rem; /* Slightly larger text for the button */
+  }
 }

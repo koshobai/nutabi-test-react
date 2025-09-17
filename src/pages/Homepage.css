@@ -1,0 +1,47 @@
+/* --- 1. Default Mobile Styles --- */
+/* These styles apply to ALL screen sizes unless overridden below */
+
+.intro-section {
+  padding: 20px;
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block; /* Allows for margin and padding */
+  padding: 15px 30px;
+  margin: 20px 0;
+  background-color: #007bff; /* Example color */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.cta-container {
+  text-align: center; /* Centers the button */
+  padding: 40px 20px;
+}
+
+/* --- 2. Tablet Styles --- */
+/* This code runs ONLY when the screen width is 768px or wider */
+@media (min-width: 768px) {
+  .intro-section {
+    font-size: 1.1rem; /* Make text a bit larger on tablets */
+    max-width: 600px;
+    margin: 0 auto; /* Center the container on larger screens */
+  }
+}
+
+/* --- 3. Desktop Styles --- */
+/* This code runs ONLY when the screen width is 1024px or wider */
+@media (min-width: 1024px) {
+  .intro-section {
+    font-size: 1.2rem; /* Make text even larger */
+    max-width: 800px;
+  }
+
+  .cta-button {
+    padding: 20px 40px; /* Make the button bigger on desktops */
+    font-size: 1.1rem;
+  }
+}
