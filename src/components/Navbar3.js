@@ -6,7 +6,10 @@ export default function Navbar3() {
     <div className="navbar3">
       <nav>
         <Link to="/" className="brand3">
-          <h2>more news soon...</h2>〆
+          <h2>more news soon...</h2>
+          <>
+            <h1>✌️</h1>
+          </>
         </Link>
       </nav>
     </div>

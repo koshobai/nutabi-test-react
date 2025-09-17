@@ -24,7 +24,7 @@ export default function Home() {
           placeItems: "center",
         }}
       >
-        (Your other content)
+        content!!
       </div>
 
       {/* Corrected the className attribute and tag structure */}

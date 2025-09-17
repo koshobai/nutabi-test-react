@@ -13,7 +13,7 @@ export default function Footer() {
         </Link>
 
         <a href="#top" className="floating-nav-button">
-          ↑
+          <h1>〄</h1>
         </a>
       </nav>
     </div>

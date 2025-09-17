@@ -6,7 +6,7 @@ export default function Navbar2() {
     <div className="navbar2">
       <nav>
         <Link to="/" className="brand2">
-          <h2>get excited !</h2>🙌
+          <h2>get excited !</h2> <h1>🙌</h1>
         </Link>
       </nav>
     </div>

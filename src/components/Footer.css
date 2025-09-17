@@ -1,11 +1,10 @@
 /* --- 1. Mobile-First Floating Button Styles --- */
 
 .floating-cta-button {
-  /* Positioning */
   position: fixed;
   bottom: 20px;
   left: 20px;
-  z-index: 1000;
+  z-index: 90;
 
   border-radius: 50px;
   width: 173px;
@@ -36,7 +35,7 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  z-index: 1000; /* Ensures it's on top of other content */
+  z-index: 98; /* Ensures it's on top of other content */
   width: 50px;
   height: 50px;
   padding: 8px; /* Added padding for content inside */
@@ -70,7 +69,7 @@
   border: 1.6px solid #fff;
   border-radius: 50px;
   text-align: center; /* Center text inside the button */
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 1.3s ease, color 0.3s ease;
 }
 
 .footer a:last-child:hover {
@@ -78,7 +77,12 @@
   color: #b228b7;
 }
 
-/* --- 2. Tablet & Desktop Adjustments --- */
+.floating-nav-button:visited {
+  background-color: transparent;
+  color: white;
+  transition: background-color 0.3s, color 0.3s ease;
+}
+
 @media (min-width: 768px) {
   .floating-nav-button {
     width: 60px;
