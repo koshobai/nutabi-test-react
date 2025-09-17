@@ -8,8 +8,6 @@ export default function Navbar() {
         <Link to="/" className="brand">
           <h2>Nutabi! </h2>ニュウ旅
         </Link>
-
-        <Link to="/create">Request a Call</Link>
       </nav>
     </div>
   )

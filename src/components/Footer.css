@@ -4,20 +4,17 @@
   /* Positioning */
   position: fixed;
   bottom: 20px;
-  right: 20px;
-  z-index: 1000; /* Ensures it's on top of other content */
+  left: 20px;
+  z-index: 1000;
 
-  /* Box Model & Sizing */
-  width: 50px;
+  border-radius: 50px;
+  width: 173px;
   height: 50px;
-  padding: 8px; /* Added padding for content inside */
-
-  /* Appearance */
+  padding: 0px;
   background-color: #9800b3cb;
   color: white;
-  border: none; /* Removed the default border */
-  border-radius: 50%; /* Makes it a circle */
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  border: none;
+  box-shadow: 4px 2px 10px rgba(0, 0, 0, 0.3);
   text-decoration: none;
   cursor: pointer;
 
@@ -30,24 +27,24 @@
   transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
+.floating-cta-button:hover {
+  background-color: #a514de;
+  transform: translateY(-10%);
+}
+
 .floating-nav-button {
-  /* Positioning */
   position: fixed;
   bottom: 20px;
   right: 20px;
   z-index: 1000; /* Ensures it's on top of other content */
-
-  /* Box Model & Sizing */
   width: 50px;
   height: 50px;
   padding: 8px; /* Added padding for content inside */
-
-  /* Appearance */
   background-color: #9800b3cb;
   color: white;
-  border: none; /* Removed the default border */
+  border: 10px; /* Removed the default border */
   border-radius: 50%; /* Makes it a circle */
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
   text-decoration: none;
   cursor: pointer;
 
@@ -61,7 +58,6 @@
 }
 
 .floating-nav-button:hover {
-  background-color: #a414de;
   transform: scale(1.1); /* Slightly enlarge on hover */
 }
 
@@ -71,9 +67,8 @@
   text-decoration: none;
 
   padding: 10px; /* Generous padding for easy tapping */
-  border: 1.5px solid #fff;
+  border: 1.6px solid #fff;
   border-radius: 50px;
-  font-weight: 500;
   text-align: center; /* Center text inside the button */
   transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -81,7 +76,6 @@
 .footer a:last-child:hover {
   background-color: #fff;
   color: #b228b7;
-  font-size: xx-large;
 }
 
 /* --- 2. Tablet & Desktop Adjustments --- */

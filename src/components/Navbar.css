@@ -1,19 +1,19 @@
 /* --- 1. Base Mobile Styles (for screens < 600px) --- */
 .navbar {
   background: #98249c;
-  padding: 20px;
+  padding: 120px 20px 120px 20px;
   position: sticky;
   z-index: 100;
 
-  top: -80px;
-  border-radius: 0 0 50px 50px; /* Adjust the '25px' to get the curve you want */
+  top: -280px;
+  border-radius: 0 0 50px 50px;
   text-align: center;
 }
 
 .navbar nav {
   display: flex;
   flex-direction: column; /* Stack items vertically on mobile */
-  align-items: flex-start; /* Align to the left */
+  align-items: center; /* Align to the left */
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -23,25 +23,6 @@
   color: #fff;
   text-decoration: none;
   font-weight: 400;
-}
-
-.navbar a:last-child {
-  color: #fff;
-  background-color: transparent;
-  text-decoration: none;
-  align-items: flex-start; /* Align to the left */
-
-  padding: 10px; /* Generous padding for easy tapping */
-  border: 1.5px solid #fff;
-  border-radius: 50px;
-  font-weight: 500;
-  text-align: center; /* Center text inside the button */
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.navbar a:last-child:hover {
-  background-color: #fff;
-  color: #98249c;
 }
 
 .navbar h2 {
@@ -59,21 +40,10 @@
   .navbar a.brand {
     margin-bottom: 0; /* Remove bottom margin */
   }
-
-  .navbar a:last-child {
-    width: auto; /* Revert to auto-width */
-    margin-left: 40px; /* Add margin back */
-    padding: 8px 16px;
-  }
 }
-
 /* --- 3. Desktop Styles (for screens >= 1024px) --- */
 @media (min-width: 1024px) {
   .navbar {
     padding: 25px 40px; /* Add a bit more padding on large screens */
-  }
-
-  .navbar a:last-child {
-    font-size: 1.1rem; /* Slightly larger text for the button */
   }
 }
