@@ -16,6 +16,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Navbar />
+        <div id="top" className="scroll-to-top"></div>
         <Switch>
           <Route exact path="/">
             <Home />

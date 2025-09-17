@@ -31,7 +31,7 @@ export const useFetch = (url) => {
       }
     }
     // This effect runs after the component has mounted.
-    // I call fetchData immediately to start the request.
+    // The fetchData function is called immediately to start the request.
     fetchData()
     // React will run this cleanup function when the component unmounts...
     // OR before the effect runs again due to a dependency change.

@@ -8,9 +8,10 @@ export default function Footer() {
         <Link to="/homepage" className="brand">
           <h1>©︎ 2025 Nutabi! </h1>
         </Link>
-        <Link to="/search" className="footer ">
-          🔍
-        </Link>
+
+        <a href="#top" className="floating-nav-button">
+          &#9650;
+        </a>
       </nav>
     </div>
   )
