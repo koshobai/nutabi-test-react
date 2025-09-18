@@ -5,7 +5,7 @@ export default function Create() {
   return (
     <div className="create">
       <div className="header">
-        <h2>Request Form Page</h2>
+        <h2>Contact Form</h2>
         <p>Get in touch with us!</p>
       </div>
       <form>

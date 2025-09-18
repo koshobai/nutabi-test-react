@@ -9,6 +9,7 @@ import Create from "./pages/create/Create"
 import Search from "./pages/search/Search"
 import Entry from "./pages/entry/Entry"
 import Futon from "./components/Futon"
+import Makura from "./components/Makura"
 import Footer from "./components/Footer"
 import Homepage from "./pages/Homepage"
 import Articles from "./pages/Articles"
@@ -44,6 +45,7 @@ function App() {
           </Route>
         </Switch>
         <Futon />
+        <Makura />
         <Footer />
       </BrowserRouter>
     </div>

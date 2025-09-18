@@ -15,12 +15,10 @@
   text-decoration: none;
   cursor: pointer;
 
-  /* Content Alignment */
   display: flex;
   justify-content: center;
   align-items: center;
 
-  /* Effects */
   transition: transform 0.2s ease, background-color 0.2s ease;
 }
 

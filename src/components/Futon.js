@@ -6,7 +6,7 @@ export default function Futon() {
     <div className="futon">
       <nav>
         <div className="floating-cta-button-blog">
-          <Link to="/articles">Our Blog</Link>
+          <a href="/articles#">Our Blog</a>
         </div>
       </nav>
     </div>

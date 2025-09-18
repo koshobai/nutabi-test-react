@@ -3,7 +3,7 @@ import { Link } from "react-router-dom/cjs/react-router-dom.min"
 
 export default function Home() {
   return (
-    <div className="home">
+    <div className="home" id="home">
       <div
         style={{
           height: "5500px",
