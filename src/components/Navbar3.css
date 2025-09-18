@@ -22,7 +22,7 @@
 }
 
 .navbar3 a.brand3 {
-  margin-bottom: 15px; /* Add space below the brand */
+  margin: 0px auto 15px auto;
   color: #fff;
   text-decoration: none;
   font-weight: 400;
@@ -48,6 +48,6 @@
 /* --- 3. Desktop Styles (for screens >= 1024px) --- */
 @media (min-width: 1024px) {
   .navbar3 {
-    padding: 25px 40px; /* Add a bit more padding on large screens */
+    visibility: hidden;
   }
 }

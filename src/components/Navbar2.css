@@ -1,4 +1,3 @@
-/* --- 1. Base Mobile Styles (for screens < 600px) --- */
 .navbar2 {
   background: #651768;
   padding: 140px 20px 70px 20px;
@@ -15,14 +14,14 @@
 
 .navbar2 nav {
   display: flex;
-  flex-direction: column; /* Stack items vertically on mobile */
-  align-items: center; /* Align to the left */
+  flex-direction: column;
+  align-items: center;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .navbar2 a.brand2 {
-  margin-bottom: 15px;
+  margin: 0px auto 15px auto;
   color: #fff;
   text-decoration: none;
   font-weight: 400;
@@ -33,21 +32,18 @@
   margin-bottom: 55px;
 }
 
-/* --- 2. Tablet Styles (for screens >= 600px) --- */
 @media (min-width: 600px) {
   .navbar2 nav {
-    flex-direction: row; /* Switch to horizontal layout */
-    align-items: center;
-    justify-content: space-between; /* Space out items */
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .navbar2 a.brand {
-    margin-bottom: 0; /* Remove bottom margin */
+    margin-bottom: 0;
   }
 }
-/* --- 3. Desktop Styles (for screens >= 1024px) --- */
 @media (min-width: 1024px) {
   .navbar2 {
-    padding: 25px 40px; /* Add a bit more padding on large screens */
+    visibility: hidden;
   }
 }

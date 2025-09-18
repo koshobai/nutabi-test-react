@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import "./Futon.css"
 
 export default function Futon() {
