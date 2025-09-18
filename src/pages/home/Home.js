@@ -95,7 +95,10 @@ export default function Home() {
 
         {/* Our Case Studies  */}
         <section className="services-section">
-          <h2 className="services-h2">Proven Success. New Horizons.</h2>
+          <h2 className="services-h2">
+            Proven Success.
+            <br /> New Horizons.
+          </h2>
           <p className="lead-text">
             While we are now focusing on empowering the vibrant video game
             industry, our foundation is built on dozens of successful
