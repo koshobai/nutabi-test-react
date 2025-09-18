@@ -1,4 +1,3 @@
-//styles
 import { Link } from "react-router-dom"
 import "./EntryList.css"
 

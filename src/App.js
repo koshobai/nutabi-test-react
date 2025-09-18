@@ -10,6 +10,7 @@ import Search from "./pages/search/Search"
 import Entry from "./pages/entry/Entry"
 import Footer from "./components/Footer"
 import Homepage from "./pages/Homepage"
+import Articles from "./pages/Articles"
 // styles
 import "./App.css"
 
@@ -36,6 +37,9 @@ function App() {
           </Route>
           <Route path="/entries/:id">
             <Entry />
+          </Route>
+          <Route path="/articles">
+            <Articles />
           </Route>
         </Switch>
         <Footer />
