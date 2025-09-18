@@ -3,9 +3,11 @@ import "./Create.css"
 
 export default function Create() {
   return (
-    <div>
-      <h2>Request Form Landing Page</h2>
-      <p>This is where the form will go.</p>
+    <div className="create">
+      <div className="header">
+        <h2>Request Form Page</h2>
+        <p>Get in touch with us!</p>
+      </div>
       <form>
         <label>
           Name:

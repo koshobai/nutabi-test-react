@@ -5,7 +5,8 @@
   margin-bottom: -50px;
   position: sticky;
   z-index: 99;
-
+  border: 1.25px solid #651768;
+  box-shadow: 4px 12px 10px rgba(0, 0, 0, 0.3);
   top: -310px;
   bottom: 0;
   border-radius: 0 0 50px 50px;

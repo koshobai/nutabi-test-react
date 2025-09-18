@@ -1,0 +1,9 @@
+.copyright {
+  position: fixed;
+  margin: 0;
+  bottom: 10px;
+  left: 10px;
+  font-size: 0.3em;
+  color: #555;
+  z-index: 97;
+}
