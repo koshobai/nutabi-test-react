@@ -17,12 +17,12 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Navbar />
-        <Navbar2 />
-        <Navbar3 />
         <div id="top" className="scroll-to-top"></div>
         <Switch>
           <Route exact path="/">
+            <Navbar />
+            <Navbar2 />
+            <Navbar3 />
             <Home />
           </Route>
           <Route path="/homepage">
