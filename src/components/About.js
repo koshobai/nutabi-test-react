@@ -13,10 +13,10 @@ export default function About() {
             company owners from overseas.
           </p>
           <p>
-            This initiative is the result of a direct partnership with
+            This initiative is the result of a direct partnership with&nbsp;
             <strong>
               <a href="https://newborn.co.jp/index.html#sec04">
-                &nbsp;NewBorn Honsya
+                NewBorn Honsya
               </a>
             </strong>
             , an established business consultancy and licensed realtor based in
