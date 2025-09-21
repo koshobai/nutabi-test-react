@@ -1,5 +1,5 @@
 import "./About.css"
-import profilePhoto from "../assets/tariq_maina.jpeg"
+import profilePhoto from "../assets/mirai-tower-top.jpg"
 export default function About() {
   return (
     <div className="about-us">
