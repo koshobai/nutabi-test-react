@@ -9,17 +9,16 @@
   margin-bottom: 40px;
 }
 
-/* --- Mobile-First Default --- */
 .about-content {
   display: flex;
-  flex-direction: column; /* Stack vertically on mobile */
+  flex-direction: column;
   gap: 30px;
 }
 
 .about-photo {
   width: 100%;
-  max-width: 300px; /* Limit size on mobile */
-  margin: 0 auto; /* Center the photo */
+  max-width: 300px;
+  margin: 0 auto;
   border-radius: 8px;
   object-fit: cover;
 }
@@ -30,18 +29,24 @@
   margin-bottom: 20px;
 }
 
-/* --- Tablet & Desktop Layout --- */
 @media (min-width: 768px) {
   .about-content {
-    flex-direction: row; /* Side-by-side on larger screens */
+    flex-direction: row;
     align-items: center;
     gap: 40px;
   }
   .about-photo {
-    flex: 1; /* Assign a flex ratio */
+    flex: 1;
     max-width: 300px;
   }
   .about-text {
-    flex: 2; /* Make text take up more space */
+    margin-top: 130px;
+    flex: 2;
+  }
+
+  .about-text a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
   }
 }

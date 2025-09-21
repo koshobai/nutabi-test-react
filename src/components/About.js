@@ -8,14 +8,19 @@ export default function About() {
         <img src={profilePhoto} alt="mirai-tower" className="about-photo" />
         <div className="about-text">
           <p>
-            Nutabi (ニュウ旅) is a new business venture helmed by Tariq Lacy,
-            designed to bridge cultures and create opportunities within Japan
-            for overseas game company owners.
+            Nutabi (ニュウ旅) is a new business venture that was created to
+            bridge cultures and create opportunities within Japan for game
+            company owners from overseas.
           </p>
           <p>
             This initiative is the result of a direct partnership with
-            <strong> NewBorn Honsya</strong>, an established business
-            consultancy and licensed realtor based in Nagoya.
+            <strong>
+              <a href="https://newborn.co.jp/index.html#sec04">
+                &nbsp;NewBorn Honsya
+              </a>
+            </strong>
+            , an established business consultancy and licensed realtor based in
+            Nagoya.
           </p>
           <p>
             Together, we provide expert guidance for those looking to navigate

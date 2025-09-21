@@ -12,9 +12,9 @@ export default function Home() {
           </h1>
           <br />
           <p className="lead-text">
-            We are a dedicated team in Japan specializing in helping overseas
-            game studios and creative tech companies establish their presence
-            here.{" "}
+            We are a Nagoya-based team of licensed consultants who specialize in
+            helping game studios and creative tech companies from overseas
+            establish their presence in Japan.{" "}
           </p>
           <br />
           <a href="/about" className="cta-button">
@@ -23,8 +23,9 @@ export default function Home() {
           <br />
           <br />
           <p className="lead-text">
-            From finding the perfect property to navigating complex visas, we
-            provide a seamless, end-to-end relocation service.
+            From finding the perfect studio for your development team, to
+            navigating the visa process, we provide a seamless, end-to-end
+            relocation service.
           </p>
         </header>
 
@@ -75,19 +76,17 @@ export default function Home() {
               Your success is supported by our curated network of local
               professionals. <br />
             </strong>
-            <br /> Our team has successfully placed dozens of non-Japanese
-            clients in homes across the country, and have built strong
-            relationships with licensed experts to handle every detail of your
-            relocation.
+            <br /> We have successfully placed dozens of overseas clients in
+            offices and homes across the country, and have built strong
+            relationships with other licensed experts to handle every detail of
+            their relocation.
           </p>
           <ul className="partner-list">
-            <li className="partner-tag">Judicial Scriveners (司法書士)</li>
-            <li className="partner-tag">
-              Administrative Scriveners (行政書士)
-            </li>
+            <li className="partner-tag">Judicial Scriveners</li>
+            <li className="partner-tag">Administrative Scriveners</li>
             <li className="partner-tag">Immigration Lawyers</li>
             <li className="partner-tag">Accountants & Tax Advisors</li>
-            <li className="partner-tag">Certified Building Inspectors</li>
+            <li className="partner-tag">Building Inspectors</li>
             <li className="partner-tag">Professional Translators</li>
             <li className="partner-tag">Japanese Language Instructors</li>
           </ul>
@@ -114,7 +113,8 @@ export default function Home() {
           <h2 className="services-h2">Ready to Start Your Journey?</h2>
           <p className="lead-text">
             Let's discuss your vision for expanding into the heart of the gaming
-            world. Contact us for a complimentary initial consultation.
+            world.
+            <br /> Request a prospective call with us today!
           </p>
         </section>
         <br />
