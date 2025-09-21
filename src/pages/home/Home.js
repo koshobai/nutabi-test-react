@@ -124,7 +124,7 @@ export default function Home() {
         {/* <br />
         <br /> */}
       </div>
-      <a href="/about#" className="brand">
+      <a href="/about#about-top" className="brand">
         <h6 className="copyright">©︎ 2025 Nutabi </h6>
       </a>
     </div>
