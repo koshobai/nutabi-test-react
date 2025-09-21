@@ -1,8 +1,9 @@
 import "./About.css"
 import profilePhoto from "../assets/mirai-tower-top.jpg"
+
 export default function About() {
   return (
-    <div className="about-us">
+    <div className="about-us" id="about-top">
       <h2>About Nutabi</h2>
       <div className="about-content">
         <img src={profilePhoto} alt="mirai-tower" className="about-photo" />
