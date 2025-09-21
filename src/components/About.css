@@ -1,0 +1,47 @@
+.about-us {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.about-us h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* --- Mobile-First Default --- */
+.about-content {
+  display: flex;
+  flex-direction: column; /* Stack vertically on mobile */
+  gap: 30px;
+}
+
+.about-photo {
+  width: 100%;
+  max-width: 300px; /* Limit size on mobile */
+  margin: 0 auto; /* Center the photo */
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.about-text p {
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* --- Tablet & Desktop Layout --- */
+@media (min-width: 768px) {
+  .about-content {
+    flex-direction: row; /* Side-by-side on larger screens */
+    align-items: center;
+    gap: 40px;
+  }
+  .about-photo {
+    flex: 1; /* Assign a flex ratio */
+    max-width: 300px;
+  }
+  .about-text {
+    flex: 2; /* Make text take up more space */
+  }
+}

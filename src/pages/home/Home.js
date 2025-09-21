@@ -17,7 +17,7 @@ export default function Home() {
             here.{" "}
           </p>
           <br />
-          <a href="/create" className="cta-button">
+          <a href="/about" className="cta-button">
             learn more about us
           </a>
           <br />

@@ -13,6 +13,7 @@ import Makura from "./components/Makura"
 import Footer from "./components/Footer"
 import Homepage from "./pages/Homepage"
 import Articles from "./pages/Articles"
+import About from "./components/About"
 // styles
 import "./App.css"
 
@@ -42,6 +43,9 @@ function App() {
           </Route>
           <Route path="/articles">
             <Articles />
+          </Route>
+          <Route path="/about">
+            <About />
           </Route>
         </Switch>
         <Futon />
