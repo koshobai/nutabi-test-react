@@ -7,14 +7,13 @@ export default function Home() {
       <div className="services-container">
         <header className="services-header">
           <h1 className="services-h1">
-            Bring Your Game Studio to Japan. <br />
-            We'll Build Your Foundation.
+            It's Tour Time. <br />
+            Let's Get You to Japan.
           </h1>
           <br />
           <p className="lead-text">
-            We are a Nagoya-based team of licensed consultants who specialize in
-            helping game studios and creative tech companies from overseas
-            establish their presence in Japan.{" "}
+            We procure the best private tours in Japan, hands down. Prepare for
+            the most exclusive-access experience of your life.{" "}
           </p>
           <br />
           <a href="/about" className="cta-button">
@@ -23,46 +22,37 @@ export default function Home() {
           <br />
           <br />
           <p className="lead-text">
-            From finding the perfect studio for your development team, to
-            navigating the visa process, we provide a seamless, end-to-end
-            relocation service.
+            Get spirited away with a tour that spans over a week throughout
+            Kyoto, Nara, Osaka, and Awaji.
+            <br />
           </p>
         </header>
 
         {/* Core Services Section */}
         <section className="services-section">
-          <h2 className="services-h2">Our Services</h2>
+          <h2 className="services-h2">The Flow</h2>
           <div className="services-grid-container">
             <div className="service-card">
-              <h3 className="services-h3">Strategic Real Estate Placement</h3>
+              <h3 className="services-h3">Tours Tours Tours</h3>
               <p>
-                Whether you're looking for a modern office space, a studio, or a
-                home for your leadership team, we leverage our deep market
-                knowledge to find properties that fit your vision and budget.
+                <div data-tf-live="01K9EN1VY94FMBDFVK3YJAP039"></div>
+                <script src="//embed.typeform.com/next/embed.js"></script>
                 <br />
                 <br />
               </p>
             </div>
             <div className="service-card">
-              <h3 className="services-h3">Business & Visa Consultation</h3>
-              <p>
-                We consult for the Business Manager Visa, working in cooperation
-                with the Japanese government and our immigration partners to
-                ensure your application is comprehensive and positioned for
-                success.
-              </p>
+              <h3 className="services-h3">...</h3>
+              <p></p>
             </div>
             <div className="service-card">
-              <h3 className="services-h3">Turnkey Relocation Support</h3>
-              <p>
-                Our network handles everything from company registration and
-                accounting setup to language support and building inspections.
-              </p>
+              <h3 className="services-h3">...</h3>
+              <p>...</p>
             </div>
             <div className="service-card">
-              <h3 className="services-h3">Turnkey Relocation Support</h3>
+              <h3 className="services-h3">...</h3>
               <p>
-                <em>WE DO THINGS!</em>
+                <em>...</em>
               </p>
             </div>
           </div>
@@ -70,51 +60,43 @@ export default function Home() {
 
         {/* Partner Network Section */}
         <section className="services-section">
-          <h2 className="services-h2">Our Expert Partner Network</h2>
+          <h2 className="services-h2">...</h2>
           <p className="lead-text">
             <strong>
-              Your success is supported by our curated network of local
-              professionals. <br />
+              ,,,, <br />
             </strong>
-            <br /> We have successfully placed dozens of overseas clients in
-            offices and homes across the country, and have built strong
-            relationships with other licensed experts to handle every detail of
-            their relocation.
+            <br /> ...
           </p>
           <ul className="partner-list">
-            <li className="partner-tag">Judicial Scriveners</li>
-            <li className="partner-tag">Administrative Scriveners</li>
-            <li className="partner-tag">Immigration Lawyers</li>
-            <li className="partner-tag">Accountants & Tax Advisors</li>
-            <li className="partner-tag">Building Inspectors</li>
-            <li className="partner-tag">Professional Translators</li>
-            <li className="partner-tag">Japanese Language Instructors</li>
+            <li className="partner-tag">...</li>
+            <li className="partner-tag">...</li>
+            <li className="partner-tag">...</li>
+            <li className="partner-tag">,,,</li>
+            <li className="partner-tag">...</li>
+            <li className="partner-tag">...</li>
+            <li className="partner-tag">...</li>
           </ul>
         </section>
 
         {/* Our Case Studies  */}
         <section className="services-section">
           <h2 className="services-h2">
-            Proven Success.
-            <br /> New Horizons.
+            ...
+            <br /> ...
           </h2>
           <p className="lead-text">
-            While we are now focusing on empowering the vibrant video game
-            industry, our foundation is built on dozens of successful
-            relocations for non-Japanese individuals and businesses. <br />
+            ... <br />
             <br />
-            Our case studies demonstrate our ability to manage complex moves
-            with precision and care.
+            ...
             <br />
           </p>
         </section>
 
         <section>
-          <h2 className="services-h2">Ready to Start Your Journey?</h2>
+          <h2 className="services-h2">...</h2>
           <p className="lead-text">
-            Let's discuss your vision for expanding into the heart of the gaming
-            world.
-            <br /> Request a prospective call with us today!
+            ...
+            <br /> ...
           </p>
         </section>
         <br />
