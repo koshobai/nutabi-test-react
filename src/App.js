@@ -6,6 +6,7 @@ import Navbar2 from "./components/Navbar2"
 import Navbar3 from "./components/Navbar3"
 import Home from "./pages/home/Home"
 import Create from "./pages/create/Create"
+import TypeForm from "./pages/typeform/TypeForm"
 import Search from "./pages/search/Search"
 import Entry from "./pages/entry/Entry"
 import Futon from "./components/Futon"
@@ -34,6 +35,9 @@ function App() {
           </Route>
           <Route path="/create">
             <Create />
+          </Route>
+          <Route path="/typeform">
+            <TypeForm />
           </Route>
           <Route path="/search">
             <Search />
