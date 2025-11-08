@@ -37,15 +37,22 @@ export default function Home() {
               <p>
                 <div
                   style={{
-                    marginTop: "10px",
-                    height: "100px",
-                    marginBottom: "10px",
+                    height: "fit-content",
                   }}
                 >
-                  {" "}
-                  <div data-tf-live="01K9EN1VY94FMBDFVK3YJAP039"></div>
-                  <script src="//embed.typeform.com/next/embed.js"></script>
+                  <div
+                    style={{
+                      marginTop: "10px",
+                      height: "100px",
+                      marginBottom: "10px",
+                    }}
+                  >
+                    {" "}
+                    <div data-tf-live="01K9EN1VY94FMBDFVK3YJAP039"></div>
+                    <script src="//embed.typeform.com/next/embed.js"></script>
+                  </div>
                 </div>
+
                 <br />
                 <br />
               </p>
