@@ -35,8 +35,17 @@ export default function Home() {
             <div className="service-card">
               <h3 className="services-h3">Tours Tours Tours</h3>
               <p>
-                <div data-tf-live="01K9EN1VY94FMBDFVK3YJAP039"></div>
-                <script src="//embed.typeform.com/next/embed.js"></script>
+                <div
+                  style={{
+                    marginTop: "10px",
+                    height: "100px",
+                    marginBottom: "10px",
+                  }}
+                >
+                  {" "}
+                  <div data-tf-live="01K9EN1VY94FMBDFVK3YJAP039"></div>
+                  <script src="//embed.typeform.com/next/embed.js"></script>
+                </div>
                 <br />
                 <br />
               </p>
