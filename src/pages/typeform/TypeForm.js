@@ -10,8 +10,9 @@ export default function Typeform() {
           Fill out the form below to begin your journey to Japan.
         </p>
       </header>
+
       <Widget
-        id="01K9EN1VY94FMBDFVK3YJAP039"
+        id="01K9NMM69ZYTGSVPGS3HS9GZ1Z"
         style={{
           width: "100%",
           height: "500px",
@@ -20,6 +21,7 @@ export default function Typeform() {
         }}
         className="form-container"
       />
+
       <a href="/about#about-top" className="brand">
         <h6 className="copyright">©︎ 2025 Nutabi </h6>
       </a>
