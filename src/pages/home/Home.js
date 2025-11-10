@@ -28,16 +28,7 @@ export default function Home() {
             <br />
           </p>
         </header>
-        <Widget
-          id="01K9EN1VY94FMBDFVK3YJAP039"
-          style={{
-            width: "100%",
-            height: "500px",
-            marginTop: "10px",
-            marginBottom: "10px",
-          }}
-          className="form-container"
-        />
+
         {/* Core Services Section */}
         <section className="services-section">
           <h2 className="services-h2">The Flow</h2>
