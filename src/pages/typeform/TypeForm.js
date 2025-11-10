@@ -14,8 +14,8 @@ export default function Typeform() {
       <Widget
         id="01K9NV0TWQEQNFKG9FKT6PG0XD"
         style={{
-          width: "100%",
-          height: "500px",
+          width: "600px",
+          height: "600px",
           marginTop: "10px",
           marginBottom: "10px",
         }}
