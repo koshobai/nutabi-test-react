@@ -1,3 +1,4 @@
+import { Widget } from "@typeform/embed-react"
 import "./Home.css"
 // import { Link } from "react-router-dom/cjs/react-router-dom.min"
 
@@ -35,26 +36,16 @@ export default function Home() {
             <div className="service-card">
               <h3 className="services-h3">Tours Tours Tours</h3>
               <p>
-                <div
+                <Widget
+                  id="01K9EN1VY94FMBDFVK3YJAP039"
                   style={{
-                    height: "fit-content",
+                    width: "100%",
+                    height: "500px",
+                    marginTop: "10px",
+                    marginBottom: "10px",
                   }}
-                >
-                  <div
-                    style={{
-                      marginTop: "10px",
-                      height: "100px",
-                      marginBottom: "10px",
-                    }}
-                  >
-                    {" "}
-                    <div data-tf-live="01K9EN1VY94FMBDFVK3YJAP039"></div>
-                    <script src="//embed.typeform.com/next/embed.js"></script>
-                  </div>
-                </div>
-
-                <br />
-                <br />
+                  className="form-container"
+                />
               </p>
             </div>
             <div className="service-card">
@@ -119,8 +110,6 @@ export default function Home() {
         <br />
         <br />
         <br />
-        {/* <br />
-        <br /> */}
       </div>
       <a href="/about#about-top" className="brand">
         <h6 className="copyright">©︎ 2025 Nutabi </h6>
