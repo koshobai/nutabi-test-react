@@ -11,11 +11,12 @@ export default function Typeform() {
         </p>
       </header>
 
+      {/* The Typeform ID has been updated to your new form */}
       <Widget
-        id="01K9NMM69ZYTGSVPGS3HS9GZ1Z"
+        id="01K9NV0TWQEQNFKG9FKT6PG0XD"
         style={{
           width: "100%",
-          height: "500px",
+          height: "500px", // You can adjust this height as needed
           marginTop: "10px",
           marginBottom: "10px",
         }}
