@@ -1,4 +1,4 @@
-import { Widget } from "@typeform/embed-react"
+// import { Widget } from "@typeform/embed-react"
 import "./Home.css"
 // import { Link } from "react-router-dom/cjs/react-router-dom.min"
 
